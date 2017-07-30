@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value="wisdom_campus"/>
+
+    <version value="1"/>
+
+    <list>
+        <mapping class="com.example.mwx0309.qilusoftware.db.user_stu"/>
+        <mapping class="com.example.mwx0309.qilusoftware.db.user_tech"/>
+    </list>
+</litepal>

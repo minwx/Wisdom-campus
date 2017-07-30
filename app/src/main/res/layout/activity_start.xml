@@ -19,18 +19,26 @@
         android:layout_marginRight="20dp">
 
         <Button
-            android:id="@+id/sign_up_button"
+            android:id="@+id/register_button"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
-            android:text="注册"/>
+            android:layout_weight="2"
+            android:text="注册"
+            android:background="#f6f6f6"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+        />
 
         <Button
             android:id="@+id/log_in_button"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
-            android:text="登录"/>
+            android:layout_weight="2"
+            android:text="登录"
+            android:background="#07be04"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            />
     </LinearLayout>
 
 </RelativeLayout>
